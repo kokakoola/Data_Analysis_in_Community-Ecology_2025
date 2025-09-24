@@ -1,0 +1,10 @@
+Some data with some errors
+Be careful!
+soil.ph,soil.type,diversity
+4.5,mineral,18 or 19
+6.4,mineral,27
+3.9,peat,1O
+5.3,mineral,22
+5.9,mineral,25
+3.2,peat,8
+4.l,most likely peat,12

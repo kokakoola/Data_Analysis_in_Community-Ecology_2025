@@ -1,0 +1,5 @@
+#In the excel file “trees.xlsx”, tree diameters have been measured in two angles (D1 and D2). Sometimes the tree was too large to measure the diameter and then the circumference was measured and entered to column D1, preceeded with “ü” (from Estonian word “ümbermõõt” = circumference). Prepare a script which calculates tree basal area (area of cross-section).
+
+#Prepare a table sites x tree species, which contain the basal area sums. Note that ala = site, puuliik = species (codes of tree species). Convert the table to data.frame using the function as.data.frame.matrix! Read the file with soil data done in the demonstration “soil.data.csv” and store it in an object called "soil". Check if the observations in your tree area matrix and soil data are in the same order.
+
+#Split the table with tree basal areas to two groups, sites with soil pH > 3.5 and the rest. In both tables, remove species which only have zeros (i.e. do not occur in any of the sites of the group). Find tree species which only grow at low soil pH. Use our own function tables.join to merge the splitted tables together. Check if the data is identical to that of the initial table.
