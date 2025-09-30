@@ -20,7 +20,7 @@ for (name in names(NPK)) {
 ## Read the file problematic.txt (available in Moodle). Use the read.table() function with parameters skip, header, and sep. Explore variable types and correct individual values if necessary. Note that numeric values from factor can be done through text! Prepare a scatterplot with diversity and soil.pH, and a boxplot diversity vs. soil type.
 
 data <- read.table(
-    "data-to-read/problematic.txt",
+    "files/problematic.txt",
     header = TRUE,
     skip = 2,
     sep = ",",

@@ -1,15 +1,15 @@
 rm(list = ls()) #clear old data
 
-xy = read.table("data-to-read/coordinates.txt")
-soil.data = read.table("soil.data.csv", sep = ";", header = T)
-high.ph.soils = subset(soil.data, pH.KCl > median(pH.KCl))
+xy = read.table("files/coordinates.txt")
+soil.data = read.table("files/soil.data.csv", sep = ";", header = T)
+high.ph.soils = subset(soil.data, pH.KCl > median(pH.KCl)) ## subset eraldab tellitud jupi
 low.ph.soils = subset(soil.data, pH.KCl <= median(pH.KCl))
 
-combine1 = cbind(xy, soil.data) # putting together columns
+combine1 = cbind(xy, soil.data) # putting together columns (rbind for rows)
 head(combine1)
 
 combine2 = rbind(high.ph.soils, low.ph.soils) # putting together rows
-dim(combine2)
+dim(combine2) ##dimensions
 
 combine3 = cbind(xy, combine2) # trying again, but ....
 plot(combine1$lon, combine1$pH.KCl)
@@ -33,7 +33,7 @@ points(combine4$lon, combine4$pH.KCl, pch = "+", col = "blue")
 order(combine2$Proovi.nimi)
 
 #siit alates ok
-vas.plants <- read.table(("data-to-read/vascular.plants.txt")) #alati uuri, kas tabel on ikka korras mille importisid.
+vas.plants <- read.table(("files/vascular.plants.txt")) #alati uuri, kas tabel on ikka korras mille importisid.
 str(vas.plants)
 dim(vas.plants)
 rownames(vas.plants)
@@ -54,7 +54,7 @@ apply(X = vas.plants, MARGIN = 1, F = max, simplify = TRUE) #calculate max value
 
 library(readxl)
 
-data <- read_excel("data-to-read/trees.xlsx")
+data <- read_excel("files/trees.xlsx")
 str(data)
 data <- as.data.frame(data)
 head(data)
@@ -117,7 +117,7 @@ paste(1:30, sites2, sep = "-")
 
 #grep ehk leia
 grep("mae", sites1)
-sites1[grep("mae", sites1)] #koma ei lähe sest see on 2-dimensionaalne ainult
+sites1[grep("mae", sites1)] #koma ei lähe lõppu sest see on 2-dimensionaalne ainult
 sites1[grep("\\.", sites1)] #tee tühik ja pane punkt? ei saand aru
 
 #asenda
@@ -126,7 +126,7 @@ gsub("mae", "oru", sites1) #asenda tekst teisega
 substring(sites1, 2, 999) #alusta 2-st positsioonist ja kuni lõpuni, igaks juhuks 999
 nchar((sites1)) #mitu tähte ikkagi on?
 
-forest.types <- read.table("data-to-read/envir.txt")$forest.types
+forest.types <- read.table("files/envir.txt")$forest.types
 unique(forest.types)
 table(forest.types) #mitmes kohas
 
@@ -145,6 +145,7 @@ t2 = data.frame(b = c(3, 0), c = c(0, 4))
 
 t2[, setdiff(names(t1), names(t2))] = 0
 t1[, setdiff(names(t2), names(t1))] = 0
+t1
 
 tables.join <- function(t1, t2) {
   # asking two tables which got names t1 and t2
