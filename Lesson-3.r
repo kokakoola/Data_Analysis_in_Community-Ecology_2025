@@ -118,7 +118,7 @@ paste(1:30, sites2, sep = "-")
 #grep ehk leia
 grep("mae", sites1)
 sites1[grep("mae", sites1)] #koma ei lähe lõppu sest see on 2-dimensionaalne ainult
-sites1[grep("\\.", sites1)] #tee tühik ja pane punkt? ei saand aru
+sites1[grep("\\.", sites1)] #leiab punkti
 
 #asenda
 gsub("mae", "oru", sites1) #asenda tekst teisega

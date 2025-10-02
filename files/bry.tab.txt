@@ -1,0 +1,31 @@
+"Cirriphyllum.piliferum" "Dicranum.polysetum" "Eurhynchium.angustirete" "Hylocomium.splendens" "Plagiochila.asplenioides" "Plagiomnium.affine" "Plagiomnium.cuspidatum" "Plagiomnium.undulatum" "Pleurozium.schreberi" "Polytrichum.commune" "Ptilium.crista.castrensis" "Rhodobryum.roseum" "Rhytidiadelphus.triquetrus" "Atrichum.undulatum" "Dicranum.scoparium" "Eurynchium..Sp.1" "Eurynchium..Sp.2" "Plagiomnium.ellipticum." "Plagiomnium.sp" "Sanionia.uncinata" "Sphagnum.sp.1" "Thuidium.delicatulum."
+"001Vapramae" 0 0 1 4 0 1 1 0 1 0 1 1 2 0 0 0 0 0 0 0 0 0
+"002Illi" 0 0 1 5 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+"003Vitipalu" 0 0 1 3 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0
+"004Konguta" 1 1 1 2 3 3 1 1 1 0 3 2 0 0 0 0 0 0 0 0 0 0
+"005Vehendi" 0 1 0 2 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 0 0 0
+"006 Erumae" 0 1 0 3 0 0 0 0 3 0 1 0 0 0 0 0 0 0 1 0 0 0
+"007Porgumae" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0.1 0 0 0 0 0
+"008Aardla" 2 0 2 0 0 2 2 0 0 0 0 1 0 2 0 0 0 0 0 0 0 1
+"009Kurepalu" 0 0.5 0 4 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0
+"010Sarakuste" 0 0.5 2 3 0 1 0 1 2 0 0 1 1 0 0 0 0 0 0 0 0 0
+"011Kannu" 1 0 0.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+"012Vonnu" 0 0 1 1 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0
+"013Rookse" 0 0 1 1 3 0 0 0 0 0 0 0 0.5 0 1 0 0 0 0 0 0 0
+"014Kammeri" 0 0 0 4 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 0
+"015Kambja" 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0
+"016Reola" 0 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+"017Ignase" 1 0 1 0 2 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+"018Unikula" 0 0 1 1 0 2 0 0 1 0 0 1 2 1 0 0 0 0 0 0 0 0
+"019Haavametsa" 0 0 0 4 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0
+"020Kruusahaua" 0 0 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+"021Aravu" 0 1 1 2 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0
+"026Pedajamae" 0 1 0 1 0 1 1 0 1 0 0 1 2 0 0 0 0 0 0 0 0 0
+"027Miti" 0 1 0 4 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+"028Puhaste" 0 0 0 5 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0
+"031Pimmelaan" 1 0 2 2 0 3 1 0 0 0 0 2 0 1 0 0 0 1 0 0 0 0
+"032Logina" 0 0 1 0.5 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0
+"033Voorepalu" 0 0 0 5 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0
+"036Taevaskoja" 0 1 0 5 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0
+"044Savimae" 0 1 0 3 0 0 0 0 3 2 0 0 0 0 0 0 0 0 0 0 2 0
+"073Sulaoja" 0 0 0 3 0 0 0 0 4 0 0 0 2 0 0 1 0 0 0 0 0 0
