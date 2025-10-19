@@ -4,8 +4,8 @@
 ## 6.1 Taxa as axes
 # If we have just two taxa, we can plot samples on a 2-dimensional space where the axes reflect the abundance of each of these species. Then the distance between samples is the distance between points on the plot. We can imagine a 3-dimensional space (x, y and z). However, generally we have many more taxa. Let’s select the 5 taxa with the highest IndVal value and make pairwise graphs!
 
-load("files/community.rda") # loading from previous lectures
-load("files/clusters.rda")
+load("files/community.rda", verbose = T) # loading from previous lectures
+load("files/clusters.rda", verbose = T)
 comm.data <- log1p(vas.plants)
 
 freq.spp <- c(58, 18, 10, 27, 38) # 5 most important spp from clusters
@@ -60,7 +60,6 @@ o.pca$x[, 1:2] # Sites Scores - Position of the site in the space
 par(mfrow = c(1, 2)) # 2 plots on one single row
 plot(scores(o.pca)[, 1:2], asp = 1, pch = o.grel) # Plot sites on the first two components with shape changing depending on the clusters
 legend("topleft", legend = unique(o.grel), pch = unique(o.grel))
-?plot
 
 # Eigenvectors of frequent species -- describing their contribution to principal components, can be visualized by arrows (vectors)
 x <- o.pca$rotation[freq.spp, 1]

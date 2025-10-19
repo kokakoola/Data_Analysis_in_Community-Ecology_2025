@@ -23,7 +23,7 @@ hist(log1p(bry.tab[bry.tab > 0])) #pretty normal distribution - I'll go with tha
 hist(sqrt(bry.tab[bry.tab > 0])) #no normal distribution
 
 #Most abundant
-which.max(colSums(bry.tab)) #do we have any dominant species? Hylocomium.splendens 4 - naah, its fine. ecological data, we'll use bray what doesn't need normal distribution
+which.max(colSums(bry.tab)) #do we have any dominant species? Hylocomium.splendens
 
 ## Choosing distance calculation method
 library(vegan)
